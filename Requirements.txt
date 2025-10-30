@@ -1,0 +1,4 @@
+Given tech has been used :
+pdfplumber
+PyPDF2
+python-docx
