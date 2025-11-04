@@ -50,3 +50,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+def match_resume_to_job(resume_text, jd_text):
+    resume_keywords = extract_keywords(resume_text)
+    jd_keywords = extract_keywords(jd_text)
+    return calculate_match(resume_keywords, jd_keywords)
+
